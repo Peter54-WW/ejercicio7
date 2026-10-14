@@ -1,0 +1,25 @@
+name: artistas_folk
+description: "Artistas representativos del folk mexicano: Kevin Kaarl, Ed Maverick, Wuicho Kun y Dromedarios Mágicos."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.0
+  audioplayers: ^6.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/video/
